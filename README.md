@@ -16,7 +16,6 @@ const urban = require('urban.js');
 ## example output
 
 ```js
-/*
 {
   definition: 'A computer [programming language], provides a [source] of [endless suffering] for many poor middle-schoolers throughout the world (including myself).',
   permalink: 'http://javascript.urbanup.com/13778263',
@@ -30,5 +29,4 @@ const urban = require('urban.js');
   example: '"You have an [assignment] on javascript for [summer break]"',
   thumbs_down: 13
 }
-*/
 ```
