@@ -13,6 +13,16 @@ const urban = require('urban.js');
 })();
 ```
 
+to get a random definition:
+```js
+const { random } = require('urban.js');
+
+(async () => {
+	const randomAnswer = random(await urban.define('javascript'));
+	console.log(randomAnswer);
+})();
+```
+
 ## example output
 
 ```js
@@ -29,14 +39,4 @@ const urban = require('urban.js');
 	example: '"You have an [assignment] on javascript for [summer break]"',
 	thumbs_down: 13
 }
-```
-
-to get a random definition:
-```js
-const { random } = require('urban.js');
-
-(async () => {
-	const randomAnswer = random(await urban.define('javascript'));
-	console.log(randomAnswer);
-})();
 ```
