@@ -31,7 +31,7 @@ const urban = require('urban.js');
 }
 ```
 
-to get a random result:
+to get a random definition:
 ```js
 const { random } = require('urban.js');
 
