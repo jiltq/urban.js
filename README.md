@@ -30,3 +30,13 @@ const urban = require('urban.js');
 	thumbs_down: 13
 }
 ```
+
+to get a random result:
+```js
+const { random } = require('urban.js');
+
+(async () => {
+	const randomAnswer = random(await urban.define('javascript'));
+	console.log(randomAnswer);
+})();
+```
